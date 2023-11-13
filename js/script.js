@@ -544,4 +544,31 @@ jQuery(document).ready(function ($) {
   })(jQuery);
   $(".tabs").lightTabs();
 
+  //slider
+  var swiperMenu = new Swiper(".slider-menu", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 2,
+    loop:true,
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 100,
+      depth: 250,
+      modifier: 1,
+      slideShadows: true,
+    },
+    breakpoints: {
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 25,
+      },
+
+    },
+  });
+
 });

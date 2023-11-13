@@ -3729,3 +3729,133 @@ header .soc{
   }
 }
 /*--------------------------END-PAGE-SERVICES-------------------------------*/
+/*---------------------------PAGE-SERVICES-ON-BOARD------------------------------*/
+.services-info{
+  padding: 45px 0 100px;
+  h2{
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .sub-title{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    color: #040404;
+    text-align: center;
+    margin-bottom: 37px;
+  }
+  .list-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px 30px;
+  }
+   .item{
+     background-color: #c49f61;
+     border-radius: 10px;
+     padding: 30px 30px 40px;
+     .item-title{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 37px;
+       font-size: 28px;
+       line-height: 1.2;
+       font-weight: 500;
+       letter-spacing: 0.01em;
+       color: #ffffff;
+       img{
+         margin-right: 20px;
+       }
+     }
+     ul{
+       li{
+         position: relative;
+         padding-left: 40px;
+         margin-bottom: 26px;
+         font-size: 22px;
+         line-height: 1.2;
+         font-weight: 300;
+         letter-spacing: 0.01em;
+         color: #ffffff;
+         &:before{
+           position: absolute;
+           top: -1px;
+           left: 0;
+           content: url("../img/icon-22.png");
+         }
+       }
+       li:last-child{
+         margin-bottom: 0;
+       }
+     }
+   }
+}
+
+.round-slider-wrap.round-item-9 .text-wrap .item-2 {
+  transform: translate(170%, 0);
+  top: 20%;
+}
+.round-slider-wrap.round-item-9 .text-wrap .item-3 {
+  transform: translate(262%, 0);
+  top: 45%;
+}
+.round-slider-wrap.round-item-9 .text-wrap .item-4{
+  top: 70%;
+  p{
+    top: 39px;
+  }
+}
+
+.round-slider-wrap.round-item-9  .text-wrap .item-5 {
+  transform: translate(-9%, 0);
+}
+
+.round-slider-wrap.round-item-9  .text-wrap .item-6{
+  transform: translate(-94%, 0);
+  top: 83%;
+  p{
+    position: relative;
+    text-align: center;
+    top: 144px;
+    right: 0;
+  }
+}
+.round-slider-wrap.round-item-9  .text-wrap .item-7 {
+  transform: translate(-287%, 0);
+  top: 69.5%;
+  p{
+    top: 38px;
+    right: 135px;
+  }
+}
+
+.round-slider-wrap.round-item-9 .text-wrap .item-8 {
+  transform: translate(-363%, 0);
+  top: 45%;
+}
+.round-slider-wrap.round-item-9 .text-wrap .item-9 {
+  transform: translate(23%, 0);
+  top: 16%;
+  p{
+    position: absolute;
+    top: 44px;
+    right: 135px;
+    text-align: right;
+  }
+}
+
+.slider-menu-block{
+  padding: 50px 0 50px;
+  h2{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+.slider-menu{
+  img{
+    width: 100%;
+  }
+}
+/*--------------------------END-PAGE-SERVICES-ON-BOARD------------------------------*/
