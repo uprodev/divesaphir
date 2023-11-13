@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Andalusia1';
+  src: url('../fonts/Andalusia.woff2') format('woff2'),
+  url('../fonts/Andalusia.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'andalusia';
+  src: url('../fonts/andalusia-Regular.woff2') format('woff2'),
+  url('../fonts/andalusia-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'DIN Pro';
+  src: url('../fonts/DINPro.woff2') format('woff2'),
+  url('../fonts/DINPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
