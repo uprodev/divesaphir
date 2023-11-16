@@ -3590,6 +3590,13 @@ header .soc {
 .slider-menu img {
   width: 100%; }
 
+.tour .board-item-3 .dot-4 {
+  width: 60px;
+  height: 46px;
+  top: 56px;
+  left: 20px;
+  border-radius: 10px 10px 0 0; }
+
 /*--------------------------END-PAGE-SERVICES-ON-BOARD------------------------------*/
 
 /*# sourceMappingURL=styles.css.map */
