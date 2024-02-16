@@ -571,4 +571,34 @@ jQuery(document).ready(function ($) {
     },
   });
 
+  var swiperCalendar = new Swiper(".calendar-slider", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    speed: 700,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".calendar-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".calendar-next",
+      prevEl: ".calendar-prev",
+    },
+  });
+
+
+
+  /*new08*/
+  //scroll
+
+  $(document).on('click', '.scroll a', function (e) {
+    e.preventDefault();
+    var id  = $(this).attr('href'),
+      top = $(id).offset().top;
+    $('body,html').animate({scrollTop: top}, 1000);
+  });
+
 });
