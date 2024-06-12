@@ -1,0 +1,11 @@
+<?php get_template_part('parts/pages/home/content/first-screen', 'none');
+get_template_part('parts/pages/home/content/body-menu', 'none');
+get_template_part('parts/pages/home/content/logos-block', 'none');
+get_template_part('parts/pages/home/content/about', 'none');
+get_template_part('parts/pages/home/content/calendar', 'none');
+get_template_part('parts/pages/home/content/safaris', 'none');
+get_template_part('parts/pages/home/content/tour', 'none');
+get_template_part('parts/pages/home/content/our-stuff', 'none');
+get_template_part('parts/pages/home/content/why-us', 'none');
+get_template_part('parts/pages/home/content/testimonials', 'none');
+get_template_part('parts/pages/home/content/features', 'none');
